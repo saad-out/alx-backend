@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-05-23 13:11+0100\n"
-"PO-Revision-Date: 2023-05-23 13:12+0100\n"
+"POT-Creation-Date: 2023-05-23 21:06+0100\n"
+"PO-Revision-Date: 2023-05-23 21:06+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -17,6 +17,28 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+
+#: 5-app.py:79 6-app.py:81 7-app.py:109 app.py:110 templates/3-index.html:4
+#: templates/4-index.html:4
+msgid "home_title"
+msgstr "Bienvenue chez Holberton"
+
+#: 5-app.py:80 6-app.py:82 7-app.py:110 app.py:111 templates/3-index.html:7
+#: templates/4-index.html:7
+msgid "home_header"
+msgstr "Bonjour monde!"
+
+#: 5-app.py:82 6-app.py:84 7-app.py:112 app.py:113
+msgid "logged_in_as"
+msgstr "Vous êtes connecté en tant que %(name)s."
+
+#: 5-app.py:83 6-app.py:85 7-app.py:113 app.py:114
+msgid "not_logged_in"
+msgstr "Vous n'êtes pas connecté."
+
+#: app.py:115
+msgid "current_time_is"
+msgstr "Nous sommes le %(current_time)s."
 
 #: intvenv/lib/python3.10/site-packages/click/_termui_impl.py:496
 msgid "{editor}: Editing failed"
@@ -277,12 +299,4 @@ msgid "{len_type} values are required, but {len_value} was given."
 msgid_plural "{len_type} values are required, but {len_value} were given."
 msgstr[0] ""
 msgstr[1] ""
-
-#: templates/3-index.html:4
-msgid "home_title"
-msgstr "Bienvenue chez Holberton"
-
-#: templates/3-index.html:7
-msgid "home_header"
-msgstr "Bonjour monde!"
 
