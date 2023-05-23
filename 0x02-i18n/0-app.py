@@ -11,7 +11,7 @@ from flask import (
 app: Flask = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/', strict_slashes=False)
 def index() -> str:
     """
     This function returns a template.
