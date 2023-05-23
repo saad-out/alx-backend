@@ -84,7 +84,7 @@ def index() -> str:
     logged_in_as: str = _("logged_in_as", name=name)
     not_logged_in: str = _("not_logged_in")
     return render_template(
-                           "5-index.html",
+                           "6-index.html",
                            home_title=home_title,
                            home_header=home_header,
                            logged_in_as=logged_in_as,
