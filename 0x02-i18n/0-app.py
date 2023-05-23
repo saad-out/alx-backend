@@ -12,7 +12,7 @@ app: Flask = Flask(__name__)
 
 
 @app.route('/')
-def index():
+def index() -> str:
     """
     This function returns a template.
     """
